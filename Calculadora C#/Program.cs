@@ -67,7 +67,13 @@ class Program
 
     static void Subtracao()
     {
+     Console.WriteLine("Escreva o Primeiro número:");
+     double a = double.Parse(Console.ReadLine());
+     Console.WriteLine("Escreva o segundo número:");
+     double b = double.Parse(Console.ReadLine());
 
+     double resultado = a - b;
+     Console.WriteLine($"Resultado: {resultado} ");
 
     }
 
@@ -93,6 +99,7 @@ class Program
         Console.WriteLine("Histórico ainda não implementado.");
     }
 }
+
 
 
 
