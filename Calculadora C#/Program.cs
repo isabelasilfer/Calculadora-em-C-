@@ -59,70 +59,41 @@ class Program
         }
     }
 
-    // Funções da calculadora
+    
     static void Soma()
     {
-     Console.WriteLine("Escreva o Primeiro número:");
-     double a = double.Parse(Console.ReadLine());
-     Console.WriteLine("Escreva o segundo número:");
-     double b = double.Parse(Console.ReadLine());
-
-     double resultado = a + b;
-     Console.WriteLine($"Resultado: {resultado} ");
+  
     }
 
     static void Subtracao()
     {
-     Console.WriteLine("Escreva o Primeiro número:");
-     double a = double.Parse(Console.ReadLine());
-     Console.WriteLine("Escreva o segundo número:");
-     double b = double.Parse(Console.ReadLine());
 
-     double resultado = a - b;
-     Console.WriteLine($"Resultado: {resultado} ");
 
     }
 
     static void Multiplicacao()
     {
-     Console.WriteLine("Escreva o Primeiro número:");
-     double a = double.Parse(Console.ReadLine());
-     Console.WriteLine("Escreva o segundo número:");
-     double b = double.Parse(Console.ReadLine());
-
-     double resultado = a * b;
-     Console.WriteLine($"Resultado: {resultado} ");
+   
     }
 
     static void Divisao()
     {
-      Console.WriteLine("Escreva o Primeiro número:");
-     double a = double.Parse(Console.ReadLine());
-     Console.WriteLine("Escreva o segundo número:");
-     double b = double.Parse(Console.ReadLine());
-
-     double resultado = a / b;
-     Console.WriteLine($"Resultado: {resultado} ");
+    
        
     }
 
     static void Potencia()
     {
-     Console.WriteLine("Escreva o Primeiro número:");
-     double a = double.Parse(Console.ReadLine());
-     Console.WriteLine("Escreva o segundo número:");
-     double b = double.Parse(Console.ReadLine());
-      
-      double resultado = Math.Pow(a, b );
-      Console.WriteLine($"Resultado: {resultado} ");
+  
     }
 
-    // Aqui depois você pode guardar e mostrar histórico
+  
     static void MostrarHistorico()
     {
         Console.WriteLine("Histórico ainda não implementado.");
     }
 }
+
 
 
 
