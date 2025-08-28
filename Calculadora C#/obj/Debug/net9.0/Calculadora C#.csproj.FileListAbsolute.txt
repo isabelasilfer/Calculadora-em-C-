@@ -1,0 +1,14 @@
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\bin\Debug\net9.0\Calculadora C#.exe
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\bin\Debug\net9.0\Calculadora C#.deps.json
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\bin\Debug\net9.0\Calculadora C#.runtimeconfig.json
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\bin\Debug\net9.0\Calculadora C#.dll
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\bin\Debug\net9.0\Calculadora C#.pdb
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\obj\Debug\net9.0\Calculadora C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\obj\Debug\net9.0\Calculadora C#.AssemblyInfoInputs.cache
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\obj\Debug\net9.0\Calculadora C#.AssemblyInfo.cs
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\obj\Debug\net9.0\Calculadora C#.csproj.CoreCompileInputs.cache
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\obj\Debug\net9.0\Calculadora C#.dll
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\obj\Debug\net9.0\refint\Calculadora C#.dll
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\obj\Debug\net9.0\Calculadora C#.pdb
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\obj\Debug\net9.0\Calculadora C#.genruntimeconfig.cache
+C:\Users\Aluno_Analytics.CENTRO40\Documents\Calculadora C#\obj\Debug\net9.0\ref\Calculadora C#.dll
