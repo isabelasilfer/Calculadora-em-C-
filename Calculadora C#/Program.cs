@@ -1,7 +1,11 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 
 class Program
 {
+    // Lista para armazenar o histórico
+    static List<string> historico = new List<string>();
+
     static void Main()
     {
         bool continuar = true;
@@ -23,77 +27,82 @@ class Program
             string opcao = Console.ReadLine();
 
             switch (opcao)
-{
-    case "1":
-        Soma();
-        break;
-    case "2":
-        Subtracao();
-        break;
-    case "3":
-        Multiplicacao();
-        break;
-    case "4":
-        Divisao();
-        break;
-    case "5":
-        Potencia();
-        break;
-    case "6":
-        MostrarHistorico();
-        break;
-    case "7":
-        Console.Clear();
-        break;
-    case "0":
-        continuar = false;
-        break;
-    default:
-        Console.WriteLine("Opção inválida!");
-        break;
-}
-
+            {
+                case "1":
+                    Soma();
+                    break;
+                case "2":
+                    Subtracao();
+                    break;
+                case "3":
+                    Multiplicacao();
+                    break;
+                case "4":
+                    Divisao();
+                    break;
+                case "5":
+                    Potencia();
+                    break;
+                case "6":
+                    MostrarHistorico();
+                    break;
+                case "7":
+                    Console.Clear();
+                    break;
+                case "0":
+                    continuar = false;
+                    break;
+                default:
+                    Console.WriteLine("Opção inválida!");
+                    break;
+            }
 
             Console.WriteLine("\nPressione ENTER para continuar...");
             Console.ReadLine();
         }
     }
 
-    
+    // Funções da calculadora
+    //Operação de Adição
     static void Soma()
     {
-  
+    
     }
-
+    //Operação de Subtração
     static void Subtracao()
     {
-
-
+        
     }
-
+    //Operação de Multiplicação
     static void Multiplicacao()
     {
-   
+        
     }
-
+    //Operação de divisão
     static void Divisao()
     {
-    
+       
+    }
+    //Operação de Potência
+    static void Potencia()
+    {
        
     }
 
-    static void Potencia()
-    {
-  
-    }
-
-  
     static void MostrarHistorico()
     {
-        Console.WriteLine("Histórico ainda não implementado.");
+        Console.WriteLine("Histórico de Operações:");
+
+        if (historico.Count == 0)
+        {
+            Console.WriteLine("Nenhuma operação realizada ainda.");
+        }
+        else
+        {
+            foreach (string item in historico)
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 }
-
-
-
-
