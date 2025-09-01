@@ -129,7 +129,14 @@ class Program
     // Operação de Potência
     static void Potencia()
     {
-       
+       Console.WriteLine("Escreva a base:");
+        double a = double.Parse(Console.ReadLine());
+        Console.WriteLine("Escreva o expoente:");
+        double b = double.Parse(Console.ReadLine());
+
+        double resultado = Math.Pow(a, b);
+        Console.WriteLine($"Resultado: {resultado} ");
+        historico.Add($"{a} ^ {b} = {resultado}");
     }
 
     // Operação com uso de parênteses
@@ -169,5 +176,6 @@ class Program
         }
     }
 }
+
 
 
