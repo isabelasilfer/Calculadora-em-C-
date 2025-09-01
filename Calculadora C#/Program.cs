@@ -100,7 +100,20 @@ class Program
     // Operação com uso de parênteses
     static void Parenteses()
     {
-       
+       Console.WriteLine("Digite a expressão matemática (pode usar parênteses):");
+        string expressao = Console.ReadLine();
+
+        try
+        {
+            var tabela = new DataTable();
+            var resultado = tabela.Compute(expressao, "");
+            Console.WriteLine($"Resultado: {resultado}");
+            historico.Add($"{expressao} = {resultado}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Erro ao calcular expressão: " + ex.Message);
+        }
     }
 
     // Mostrar histórico
@@ -121,3 +134,4 @@ class Program
         }
     }
 }
+
