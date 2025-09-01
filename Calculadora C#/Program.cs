@@ -82,7 +82,15 @@ class Program
     // Operação de Multiplicação
     static void Multiplicacao()
     {
-       
+       Console.WriteLine("Escreva quatro números:");
+        double a = double.Parse(Console.ReadLine());
+        double b = double.Parse(Console.ReadLine());
+        double c = double.Parse(Console.ReadLine());
+        double d = double.Parse(Console.ReadLine());
+
+        double resultado = a * b * c * d;
+        Console.WriteLine($"Resultado: {resultado} ");
+        historico.Add($"{a} * {b} * {c} * {d} = {resultado}");
     }
 
     // Operação de Divisão
@@ -121,3 +129,4 @@ class Program
         }
     }
 }
+
