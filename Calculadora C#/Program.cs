@@ -110,7 +110,20 @@ class Program
     // Operação de Divisão
     static void Divisao()
     {
+      Console.WriteLine("Escreva dois números:");
+        double a = double.Parse(Console.ReadLine());
+        double b = double.Parse(Console.ReadLine());
 
+        if (b == 0)
+        {
+            Console.WriteLine("Erro: divisão por zero.");
+            historico.Add($"{a} / {b} = Erro: divisão por zero");
+        }
+        else
+        {
+            double resultado = a / b;
+            Console.WriteLine($"Resultado: {resultado} ");
+            historico.Add($"{a} / {b} = {resultado}");
     }
 
     // Operação de Potência
@@ -156,4 +169,5 @@ class Program
         }
     }
 }
+
 
