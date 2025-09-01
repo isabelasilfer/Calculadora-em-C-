@@ -70,7 +70,15 @@ class Program
     // Operação de Adição
     static void Soma()
     {
-        
+        Console.WriteLine("Escreva quatro números:");
+        double a = double.Parse(Console.ReadLine());
+        double b = double.Parse(Console.ReadLine());
+        double c = double.Parse(Console.ReadLine());
+        double d = double.Parse(Console.ReadLine());
+
+        double resultado = a + b + c + d;
+        Console.WriteLine($"Resultado: {resultado} ");
+        historico.Add($"{a} + {b} + {c} + {d} = {resultado}");
     }
 
     // Operação de Subtração
