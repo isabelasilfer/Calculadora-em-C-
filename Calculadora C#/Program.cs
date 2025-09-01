@@ -76,7 +76,13 @@ class Program
     // Operação de Subtração
     static void Subtracao()
     {
-        
+        Console.WriteLine("Escreva dois números:");
+        double a = double.Parse(Console.ReadLine());
+        double b = double.Parse(Console.ReadLine());
+
+        double resultado = a - b;
+        Console.WriteLine($"Resultado: {resultado} ");
+        historico.Add($"{a} - {b} = {resultado}");
     }
 
     // Operação de Multiplicação
@@ -121,3 +127,4 @@ class Program
         }
     }
 }
+
